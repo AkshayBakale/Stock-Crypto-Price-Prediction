@@ -208,7 +208,7 @@ Training datasets and model artifacts are stored in isolated, reproducible direc
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/atharvarautwrio/stock-and-crypto-prediction.git
+git clone [https://github.com/atharvarautwrio/stock-and-crypto-prediction](https://github.com/AkshayBakale/Stock-Crypto-Price-Prediction).git
 cd "Stock and Crypto predication"
 ```
 
