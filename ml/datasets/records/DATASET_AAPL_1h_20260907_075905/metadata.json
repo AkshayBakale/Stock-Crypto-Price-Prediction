@@ -1,0 +1,71 @@
+{
+  "dataset_id": "DATASET_AAPL_1h_20260907_075905",
+  "symbol": "AAPL",
+  "timeframe": "1h",
+  "row_count": 250,
+  "feature_count": 35,
+  "feature_names": [
+    "return_1",
+    "return_3",
+    "return_5",
+    "return_10",
+    "return_20",
+    "log_return",
+    "momentum_5",
+    "momentum_10",
+    "acceleration_5",
+    "gap",
+    "close_to_sma_7",
+    "close_to_sma_14",
+    "close_to_sma_21",
+    "close_to_sma_50",
+    "close_to_ema_9",
+    "close_to_ema_21",
+    "close_to_ema_50",
+    "close_to_vwap",
+    "trend_slope_10",
+    "rsi_14",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "stoch_k",
+    "stoch_d",
+    "cci_20",
+    "roc_12",
+    "williams_r_14",
+    "atr_pct",
+    "hist_vol_20",
+    "parkinson_vol_20",
+    "garman_klass_vol_20",
+    "vol_change_1",
+    "rel_volume_20",
+    "mfi_14"
+  ],
+  "target_column": "target_return_1",
+  "date_range_start": "2026-07-17 14:30:00+00:00",
+  "date_range_end": "2026-09-04 18:30:00+00:00",
+  "split_info": {
+    "total_rows": 250,
+    "train_indices": [
+      0,
+      175
+    ],
+    "val_indices": [
+      175,
+      212
+    ],
+    "test_indices": [
+      212,
+      250
+    ],
+    "train_rows": 175,
+    "val_rows": 37,
+    "test_rows": 38,
+    "forecast_horizon": 1,
+    "target_return_col": "target_return_1",
+    "target_price_col": "target_price_1",
+    "target_direction_col": "target_direction"
+  },
+  "folder_path": "C:\\Atharva\\Stock and Crypto predication\\ml\\datasets\\records\\DATASET_AAPL_1h_20260907_075905",
+  "created_at": "2026-09-07T07:59:05.321274"
+}
